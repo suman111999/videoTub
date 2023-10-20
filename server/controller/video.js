@@ -135,6 +135,7 @@ const createVideo = async (req, res) => {
     }
 };
 
+//have doubt->one user can have multiple videoes so need to fix it.
 const updateVideo = async (req, res) => {
     try {
         //each video is associated with some user(as he has created or maintanor of that video)->he can only update that video.
